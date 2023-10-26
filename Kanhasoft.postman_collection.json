@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "7ceda505-cfe8-443c-88ed-db1cfc5c978d",
+		"name": "Kanhasoft",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "12950441"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8000/api/type_material_count_of_machine",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "127.0.0.1:8000/api/type_material_count_of_machine"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/add_machine",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "m3",
+							"type": "default"
+						},
+						{
+							"key": "description",
+							"value": "m3",
+							"type": "default"
+						},
+						{
+							"key": "type",
+							"value": "2",
+							"type": "default"
+						},
+						{
+							"key": "material",
+							"value": "1",
+							"type": "default"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/add_machine"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/machine_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "127.0.0.1:8000/api/machine_list"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/machine_used_by_material",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "127.0.0.1:8000/api/machine_used_by_material"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/add_material",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "type1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/add_material"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/add_type",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "type1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/add_type"
+			},
+			"response": []
+		}
+	]
+}
